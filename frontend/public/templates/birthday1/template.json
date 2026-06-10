@@ -1,0 +1,33 @@
+{
+  "id": "birthday1",
+  "background": "/templates/birthday1/bg.jpg",
+
+  "elements": [
+    {
+      "id": "title",
+      "type": "text",
+      "text": "Happy Birthday",
+      "x": 250,
+      "y": 100,
+      "fontSize": 50
+    },
+
+    {
+      "id": "name",
+      "type": "text",
+      "text": "Your Name",
+      "x": 300,
+      "y": 800,
+      "fontSize": 40
+    },
+
+    {
+      "id": "photo",
+      "type": "image",
+      "x": 250,
+      "y": 250,
+      "width": 500,
+      "height": 500
+    }
+  ]
+}

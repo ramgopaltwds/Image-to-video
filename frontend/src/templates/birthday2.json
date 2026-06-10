@@ -1,0 +1,33 @@
+{
+  "id": "birthday2",
+  "title": "Flower Birthday Template",
+  "thumbnail": "/templates/birthday2/thumbnail.jpg",
+  "background": "/templates/birthday2/bg.jpg",
+
+  "elements": [
+    {
+      "id": "title",
+      "type": "text",
+      "text": "Happy Birthday",
+      "x": 220,
+      "y": 120,
+      "fontSize": 55
+    },
+    {
+      "id": "name",
+      "type": "text",
+      "text": "Enter Name",
+      "x": 280,
+      "y": 850,
+      "fontSize": 45
+    },
+    {
+      "id": "photo",
+      "type": "image",
+      "x": 200,
+      "y": 300,
+      "width": 600,
+      "height": 600
+    }
+  ]
+}
