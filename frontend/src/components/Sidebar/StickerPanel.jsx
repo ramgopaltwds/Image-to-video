@@ -8,6 +8,15 @@ function StickerPanel({
     "/assets/stickers/ballon.jpg"
   ];
 
+ const handleClick = (sticker) => {
+    if (typeof onSelectSticker === "function") {
+      onSelectSticker(sticker);
+    } else {
+      console.warn("onSelectSticker is missing");
+    }
+  };
+
+
   return (
     <div>
       <h3>Stickers</h3>
